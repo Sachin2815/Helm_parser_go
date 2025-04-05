@@ -102,7 +102,7 @@ This error means your Go project is **missing a `go.mod` file**, which is requir
 Run this from the root of your project (`helm_parser_go`):
 
 ```bash
-go mod init helm_parser_go
+go mod init Helm_parser_go  ##Run this command after the installaton
 ```
 
 This will create a `go.mod` file.
