@@ -1,0 +1,20 @@
+✅ Next Steps
+Check File Structure:
+
+main.go
+
+templates/index.html
+
+templates/image_details.html
+
+repo_db/ (created automatically)
+
+Test Flow:
+
+Start server → go run main.go
+
+Visit: http://localhost:8080/home
+
+Enter a Helm chart repo URL and submit
+
+✅ You're done!

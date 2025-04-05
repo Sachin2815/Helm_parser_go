@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            color: #333;
+        }
+        table {
+            width: 60%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 14px 18px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+            color: #444;
+        }
+        td {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2>Container Image Details</h2>
+    <table>
+        <tr>
+            <th>Image Name</th>
+            <td>{{ .Name }}</td>
+        </tr>
+        <tr>
+            <th>Size</th>
+            <td>{{ .Size }}</td>
+        </tr>
+        <tr>
+            <th>Number of Layers</th>
+            <td>{{ .Layers }}</td>
+        </tr>
+    </table>
+
+    <div style="text-align:center; margin-top:20px;">
+        <a href="/home" style="text-decoration:none; color: #007BFF;">← Back to Home</a>
+    </div>
+</body>
+</html>
